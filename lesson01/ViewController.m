@@ -7,12 +7,19 @@
 //
 
 #import "ViewController.h"
+#import "CarHorn.h"
 
 @interface ViewController ()
+@property (weak, nonatomic) IBOutlet UILabel *carLabelText;
 
 @end
 
 @implementation ViewController
+- (IBAction)carHornButton:(UIButton *)sender {
+    // при нажатии на кнопку свормировался объект и вызвал метод
+    DriveAuto * car = [[DriveAuto alloc] init];
+    [car driveCar:@"Pidor"];
+}
 
 - (void)viewDidLoad {
     [super viewDidLoad];

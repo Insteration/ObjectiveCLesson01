@@ -13,6 +13,7 @@
 		D926281D21E211DC00B3CE17 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D926281C21E211DC00B3CE17 /* Assets.xcassets */; };
 		D926282021E211DC00B3CE17 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D926281E21E211DC00B3CE17 /* LaunchScreen.storyboard */; };
 		D926282321E211DC00B3CE17 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D926282221E211DC00B3CE17 /* main.m */; };
+		D926282A21E2132700B3CE17 /* DriveAuto.m in Sources */ = {isa = PBXBuildFile; fileRef = D926282921E2132700B3CE17 /* DriveAuto.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		D926281F21E211DC00B3CE17 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D926282121E211DC00B3CE17 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D926282221E211DC00B3CE17 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D926282921E2132700B3CE17 /* DriveAuto.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DriveAuto.m; sourceTree = "<group>"; };
+		D926282B21E2133F00B3CE17 /* DriveAuto.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DriveAuto.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +66,8 @@
 				D926281621E211D800B3CE17 /* ViewController.h */,
 				D926281721E211D800B3CE17 /* ViewController.m */,
 				D926281921E211D800B3CE17 /* Main.storyboard */,
+				D926282B21E2133F00B3CE17 /* DriveAuto.h */,
+				D926282921E2132700B3CE17 /* DriveAuto.m */,
 				D926281C21E211DC00B3CE17 /* Assets.xcassets */,
 				D926281E21E211DC00B3CE17 /* LaunchScreen.storyboard */,
 				D926282121E211DC00B3CE17 /* Info.plist */,
@@ -142,6 +147,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D926281821E211D800B3CE17 /* ViewController.m in Sources */,
+				D926282A21E2132700B3CE17 /* DriveAuto.m in Sources */,
 				D926282321E211DC00B3CE17 /* main.m in Sources */,
 				D926281521E211D800B3CE17 /* AppDelegate.m in Sources */,
 			);
