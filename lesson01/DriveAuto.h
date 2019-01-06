@@ -12,6 +12,9 @@
 @interface DriveAuto: NSObject
 
 - (void) driveCar: (NSString *) direction;
+- (void) carStart;
+- (void) carHorn;
+- (void) carGas;
 
 @end
 

@@ -11,12 +11,14 @@
 
 @implementation DriveAuto
 
+- (void) carStart {
+    [self carCheckEngine];
+    NSLog(@"Engine working!");
+}
+
 - (void) driveCar: (NSString *) direction {
     NSLog(@"Set up drive car");
-    [self carHorn];
     [self carTurn:direction];
-    [self carCheckEngine];
-    
 }
 
 - (void) carHorn {
@@ -33,6 +35,10 @@
     } else {
         NSLog(@"Car turn to %@", direction);
     }
+}
+
+- (void) carGas {
+    NSLog(@"WRUUM WRUUM!");
 }
 
 @end

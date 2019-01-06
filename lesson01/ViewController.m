@@ -15,10 +15,30 @@
 @end
 
 @implementation ViewController
-- (IBAction)carHornButton:(UIButton *)sender {
+- (IBAction)carEngineStartButton:(UIButton *)sender {
+    DriveAuto * carEngine = [[DriveAuto alloc] init];
+    [carEngine carStart];
+}
+
+- (IBAction)carGasButton:(UIButton *)sender {
+    DriveAuto * carGas = [[DriveAuto alloc] init];
+    [carGas carGas];
+}
+
+- (IBAction)turnLeftButton:(UIButton *)sender {
     // при нажатии на кнопку свормировался объект и вызвал метод
     DriveAuto * car = [[DriveAuto alloc] init];
     [car driveCar:@"Left"];
+}
+
+- (IBAction)turnRightButton:(UIButton *)sender {
+    DriveAuto * car = [[DriveAuto alloc] init];
+    [car driveCar:@"Right"];
+    
+}
+- (IBAction)carHornButton:(UIButton *)sender {
+    DriveAuto * horn = [[DriveAuto alloc] init];
+    [horn carHorn];
 }
 
 - (void)viewDidLoad {
