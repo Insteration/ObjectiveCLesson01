@@ -27,13 +27,13 @@
 
 - (IBAction)turnLeftButton:(UIButton *)sender {
     // при нажатии на кнопку свормировался объект и вызвал метод
-    DriveAuto * car = [[DriveAuto alloc] init];
-    [car driveCar:@"Left"];
+    DriveAuto * carLeft = [[DriveAuto alloc] init];
+    [carLeft driveCar:@"Left"];
 }
 
 - (IBAction)turnRightButton:(UIButton *)sender {
-    DriveAuto * car = [[DriveAuto alloc] init];
-    [car driveCar:@"Right"];
+    DriveAuto * carRight = [[DriveAuto alloc] init];
+    [carRight driveCar:@"Right"];
     
 }
 - (IBAction)carHornButton:(UIButton *)sender {
